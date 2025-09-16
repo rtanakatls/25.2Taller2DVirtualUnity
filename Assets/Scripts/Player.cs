@@ -14,6 +14,7 @@ public class Player : MonoBehaviour
 
     private void Awake()
     {
+        Debug.Log("Test Awake");
         canUseSpeedBuff = true;
         rb2d = GetComponent<Rigidbody2D>();
     }
