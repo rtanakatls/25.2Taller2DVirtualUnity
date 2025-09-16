@@ -21,6 +21,7 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
+        Debug.Log("Test Update");
         float h = Input.GetAxisRaw("Horizontal");
         float v = Input.GetAxisRaw("Vertical");
 
