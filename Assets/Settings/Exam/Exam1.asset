@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 974f1c0b7a6dc7a4b891333e1f112c19, type: 3}
+  m_Name: Exam1
+  m_EditorClassIdentifier: 
+  questions:
+  - questionText: Pregunta A1
+    answers:
+    - Alternativa A1
+    - Alternativa B1
+    - Alternativa C1
+    - Alternativa D1
+    correctAnswerIndex: 0
+  - questionText: Pregunta A2
+    answers:
+    - Alternativa A2
+    - Alternativa B2
+    - Alternativa C2
+    - Alternativa D2
+    correctAnswerIndex: 1
+  - questionText: Pregunta A3
+    answers:
+    - Alternativa A3
+    - Alternativa B3
+    - Alternativa C3
+    - Alternativa D3
+    correctAnswerIndex: 0
