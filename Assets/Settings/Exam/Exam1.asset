@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 974f1c0b7a6dc7a4b891333e1f112c19, type: 3}
   m_Name: Exam1
   m_EditorClassIdentifier: 
+  timePerQuestion: 10
   questions:
   - questionText: Pregunta A1
     answers:
@@ -19,7 +20,7 @@ MonoBehaviour:
     - Alternativa B1
     - Alternativa C1
     - Alternativa D1
-    correctAnswerIndex: 0
+    correctAnswerIndex: 5
   - questionText: Pregunta A2
     answers:
     - Alternativa A2

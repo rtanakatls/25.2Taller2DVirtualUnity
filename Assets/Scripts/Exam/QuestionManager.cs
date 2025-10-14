@@ -100,15 +100,8 @@ public class QuestionManager : MonoBehaviour
 
         yield return new WaitForSeconds(1f);
 
+        examManager.NextQuestion(isCorrect);
 
-        if (isCorrect)
-        {
-            examManager.NextQuestion(true);
-        }
-        else
-        {
-            examManager.NextQuestion(false);
-        }
     }
 
     private void Update()
