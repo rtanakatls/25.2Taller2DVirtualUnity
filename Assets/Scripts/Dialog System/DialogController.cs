@@ -56,6 +56,12 @@ public class DialogController : MonoBehaviour
         }
     }
 
+    public void SkipDialog()
+    {
+        StopAllCoroutines();
+        dialogUIText.text = "";
+    }
+
     private void Update()
     {
         if(Input.GetKey(KeyCode.Space))

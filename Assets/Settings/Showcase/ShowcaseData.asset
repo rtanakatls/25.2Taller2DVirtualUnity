@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 740fd7da99b343f46bc9b6864623b8bd, type: 3}
+  m_Name: ShowcaseData
+  m_EditorClassIdentifier: 
+  elements:
+  - name: objeto 1
+    title: Lorem ipsum
+    description: dolor sit amet, consectetur adipiscing elit. Donec sed lectus at
+      arcu suscipit sagittis id ac ex. Proin lectus velit, congue eu neque id, porttitor
+      facilisis magna. Cras eu metus eu dui rhoncus scelerisque sodales ut lorem.
+      Donec lorem libero, feugiat sed tellus quis, aliquet pellentesque arcu. Duis
+      cursus mauris turpis, at dapibus nisl feugiat et. Lorem ipsum dolor sit amet,
+      consectetur adipiscing elit. Etiam vehicula odio ut viverra porttitor. Cras
+      leo ex, eleifend ut odio sit amet, auctor volutpat nulla. Nam pulvinar ante
+      eu arcu semper viverra.
+    image: {fileID: -3683382797508963346, guid: 1b233510a22bc8b4dbeb73f5f8a9bf15, type: 3}
+  - name: objeto 2
+    title: Nullam quis
+    description: Nullam quis risus vel nibh sagittis porta vel ac mi. Integer dolor
+      lacus, tincidunt eu libero vulputate, maximus finibus magna. Fusce interdum
+      sagittis arcu sed blandit. Fusce nec ligula felis. Donec dolor quam, bibendum
+      vel condimentum at, tempus eget orci. Nullam vitae diam nec libero lacinia
+      condimentum. Mauris pellentesque semper sem ut dapibus. Sed in risus non nibh
+      pellentesque elementum. Duis ut lacinia ligula, ac gravida turpis. Nam ultricies
+      feugiat lectus in porttitor. Proin quis accumsan nisl, vel venenatis lorem.
+      Cras nibh felis, elementum ut consectetur quis, dictum et nisl. Sed arcu enim,
+      fermentum quis lacinia ut, hendrerit vel mauris.
+    image: {fileID: -9081833629886335486, guid: 211d909cdd84d8441a8ac7ea759b5f96, type: 3}
+  - name: objeto 3
+    title: Proin in
+    description: Proin in eros ut mi consequat auctor. Integer sed efficitur nibh.
+      Mauris ac mi bibendum, ullamcorper quam et, pretium erat. Quisque ultricies
+      tortor et lectus feugiat, non vestibulum metus lacinia. Suspendisse eget sollicitudin
+      nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada
+      fames ac turpis egestas. Pellentesque consequat est turpis, vel tempor urna
+      porta et. Suspendisse pellentesque est non ornare interdum. Mauris sit amet
+      elementum dui.
+    image: {fileID: -5512684102931738988, guid: 95d513a262aee654fbb26874dde37513, type: 3}

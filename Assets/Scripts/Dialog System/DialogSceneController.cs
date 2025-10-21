@@ -7,6 +7,7 @@ public class DialogSceneController : MonoBehaviour
     [SerializeField] private Image character1;
     [SerializeField] private Image character2;
     [SerializeField] private DialogController dialogController;
+    [SerializeField] private Button skipButton;
 
     [Header("Dialog Settings")]
     [SerializeField] private DialogSetting dialogSetting;
@@ -19,6 +20,14 @@ public class DialogSceneController : MonoBehaviour
         character1.sprite = dialogSetting.character1Default;
         character2.sprite = dialogSetting.character2Default;
         ShowDialog();
+        skipButton.onClick.AddListener(OnSkip);
+    }
+
+    private void OnSkip()
+    {
+        dialogController.SkipDialog();
+        currentDialogIndex = dialogSetting.dialogs.Count;
+        Destroy(gameObject);
     }
 
     public void OnDialogFinish()
