@@ -25,9 +25,10 @@ MonoBehaviour:
     characterSprite: {fileID: -3683382797508963346, guid: 1b233510a22bc8b4dbeb73f5f8a9bf15, type: 3}
     dialogText: "\xA1AAAAH! S-s\xED, en seguida, mam\xE1."
   - characterID: 2
-    characterSprite: {fileID: -9081833629886335486, guid: 211d909cdd84d8441a8ac7ea759b5f96, type: 3}
+    characterSprite: {fileID: -5512684102931738988, guid: 95d513a262aee654fbb26874dde37513, type: 3}
     dialogText: "Ap\xFArate, y m\xE1s te vale sacar buenas notas este bimestre, de
       lo contrario\u2026"
   - characterID: 2
     characterSprite: {fileID: -9081833629886335486, guid: 211d909cdd84d8441a8ac7ea759b5f96, type: 3}
     dialogText: "\xA1LO VAS A LAMENTAR!"
+  dialogEndDelay: 1
